@@ -1,7 +1,7 @@
 package main
 
 import (
-		//"lynk/data-out-stream/internal/daos"
+		"lynk/data-out-stream/internal"
 		"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 
 	"fmt"
@@ -54,7 +54,7 @@ func main() {
 	}
 	 // wg.wait()
 	c.Close()
-	daos.Foo()
+	test.Foo()
 }
 		
 
